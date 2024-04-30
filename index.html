@@ -3,62 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/ViaggiDiGruppoInGiappone/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
   <title>Viaggi di gruppo in Giappone</title>
+  <link rel="icon" type="image/x-icon" href="/ViaggiDiGruppoInGiappone/images/Cherry Blossom Emoji.png">
 </head>
 <body>
   <header>
-    <div class="brand-name">
-        Viaggi di gruppo in Giappone
+    <div class="header-container">
+        <div class="brand-name">
+          <a href="/ViaggiDiGruppoInGiappone/homepage.html">
+            <h1>Viaggi di gruppo in Giappone 🌸</h1>
+          </a>
+        </div>
+        <a href="/ViaggiDiGruppoInGiappone/blog.html" class="header-link">Blog</a>
     </div>
   </header>
   <section class="hero">
     <div class="hero-content">
-      <h1>Viaggi di gruppo in Giappone</h1>
+      <h1>Viaggi di gruppo in Giappone 🌸</h1>
       <p>Trova il viaggio perfetto per il Giappone</p>
-      <div class="search-container">
+      <div class="start-button">
+        <a href="#">Confronta Viaggi</a>
+      </div>
+      <!-- <div class="search-container">
         <input type="text" id="destination" name="destination" placeholder="Destinazione">
         <div class="divider-vertical"></div>
         <input type="date" id="start-date" name="start-date">
         <div class="divider-vertical"></div>
         <input type="date" id="end-date" name="end-date">
-        <button type="submit"><i class="fas fa-search"></i></button>
+        <button type="submit"><i class="fas fa-search"></i></button> -->
       </div>
     </div>
   </section>
-  <section class="top-picks">
-    <h2>Le migliori mete</h2>
-    <div class="picks-container">
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+<section class="full-body">
+
+    <section class="highly-rated-accommodations">
+    <h2 class="section-title">Le 5 mete piu scelte</h2>
+    <div class="accommodations-container">
+      <div class="accommodation-card">
+        <img src="https://strapi-imaginary.weroad.it/resource/webp-small/21599/japan-Itsukushima-sea-summer.webp" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">Giappone 360°: alla scoperta di Tokyo, O...</h3>
+            <img src="images/Weroad.png" alt="Weroad" class="accommodation-logo">
+          </div>
+          <p class="location">Kyoto, Tokyo, Osaka</p>
+          <div class="price-rating">
+            <span class="price">from €1599</span>
+            <span class="rating">Adventure</span>
+          </div>
+        </div>
       </div>
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+      <div class="accommodation-card">
+        <img src="https://siviaggia.it/wp-content/uploads/sites/2/2019/04/il-giappone-ha-spiagge-bellissime-ma-bisogna-rispettare-alcune-regole.jpg" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">Giappone isole tropicali</h3>
+            <img src="images/Viaggiavventura.png" alt="Viaggiavventura" class="accommodation-logo">
+          </div>
+          <p class="location">Okinawa e le Isole Ryukyu</p>
+          <div class="price-rating">
+            <span class="price">from €2099</span>
+            <span class="rating">Relax</span>
+          </div>
+        </div>
       </div>
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+      <div class="accommodation-card">
+        <img src="https://www.viaggiavventurenelmondo.it/img/hx7gomuk7lqfj.jpg" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">Giappone breve discovery</h3>
+            <img src="images/Viaggiavventura.png" alt="Viaggiavventura" class="accommodation-logo">
+          </div>
+          <p class="location">Kyoto, Nara, Osaka</p>
+          <div class="price-rating">
+            <span class="price">from €1926</span>
+            <span class="rating">Adventure</span>
+          </div>
+        </div>
       </div>
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+      <div class="accommodation-card">
+        <img src="https://www.blueberrytravel.it/wp-content/uploads/2022/12/Blueberry-giappotour-kanazawa-1536x1220.jpeg" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">GIAPPOTOUR® Only Tokyo</h3>
+            <img src="images/Blueberry.png" alt="Blueberry" class="accommodation-logo">
+          </div>
+          <p class="location">Tokyo</p>
+          <div class="price-rating">
+            <span class="price">from €999</span>
+            <span class="rating">Exploration</span>
+          </div>
+        </div>
       </div>
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+      <div class="accommodation-card">
+        <img src="/ViaggiDiGruppoInGiappone/images/landscape.webp" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">Sakura Ryokan</h3>
+            <img src="images/Grandiviaggi.png" alt="Grandiviaggi" class="accommodation-logo">
+          </div>
+          <p class="location">Kyoto</p>
+          <div class="price-rating">
+            <span class="price">from €1500</span>
+            <span class="rating">9.6</span>
+          </div>
+        </div>
       </div>
-      <div class="pick large">
-        <img src="images/landscape.webp" alt="Paesaggio">
-        <button class="destination-button">Destinazione</button>
+      <div class="accommodation-card">
+        <img src="/ViaggiDiGruppoInGiappone/images/landscape.webp" alt="Accommodation" class="accommodation-image">
+        <div class="accommodation-info">
+          <div class="title-logo-wrapper">
+            <h3 class="accommodation-name">Sakura Ryokan</h3>
+            <img src="images/Weroad.png" alt="Weroad" class="accommodation-logo">
+          </div>
+          <p class="location">Kyoto</p>
+          <div class="price-rating">
+            <span class="price">from €1500</span>
+            <span class="rating">9.6</span>
+          </div>
+        </div>
       </div>
-      <!-- More .pick divs here, some with class .large and some without -->
-      <!-- Ensure you have your actual destination names and images -->
+    </div>
+  </section>
+  <section class="site-description">
+    <h2>Perché Scegliere Viaggi di gruppo in Giappone?</h2>
+</section>
+
+  <section class="features">
+    
+    <div class="feature-box">
+      <h4>Ampia Selezione</h4>
+      <p>Collaboriamo con numerosi partner per offrirvi la più vasta scelta di viaggi organizzati in Giappone.</p>
+    </div>
+    <div class="feature-box">
+      <h4>Confronto Facile</h4>
+      <p>Con i nostri strumenti di confronto, trovare il viaggio perfetto è semplice e veloce.</p>
+    </div>
+    <div class="feature-box">
+      <h4>Offerte Competitive</h4>
+      <p>Ci assicuriamo che otteniate le migliori offerte disponibili, massimizzando il valore del vostro investimento.</p>
+    </div>
+    <div class="feature-box">
+      <h4>Supporto Affidabile</h4>
+      <p>Il nostro team di supporto è sempre pronto ad assistervi nella scelta e prenotazione del vostro viaggio ideale.</p>
     </div>
   </section>
   
+  <section class="information-section">
+    <div class="info-container">
+      <div class="info-block">
+        <h2>Scoprite il Meglio dei Viaggi Organizzati in Giappone con Viaggi di gruppo in Giappone</h2>
+        <p>Benvenuti su <strong> Viaggi di gruppo in Giappone </strong>, il vostro portale di fiducia per scoprire e prenotare i migliori viaggi organizzati verso il Giappone. Selezioniamo le migliori offerte di viaggio da una varietà di siti affidabili, assicurandovi di trovare l'opzione perfetta che si adatti alle vostre esigenze di viaggio.</p>  
+      </div>
+      <div class="info-block">
+        <h2>Viaggi Organizzati in Giappone: Scopri, Confronta e Prenota</h2>
+        <p>Con <strong>Viaggi di gruppo di Giappone</strong>, esplorare il Giappone non è mai stato così facile. Offriamo una vasta gamma di viaggi organizzati che vi porteranno dalle luminose luci di Tokyo ai tranquilli templi di Kyoto. Utilizzate i nostri strumenti di confronto per trovare il tour che meglio si adatta al vostro budget e ai vostri interessi.</p>  
+        <!-- More text -->
+      </div>
+      <div class="info-block">
+        <h2>Viaggi di Gruppo 2024: Le Migliori Offerte da Non Perdere</h2>
+        <p>Anche se non organizziamo direttamente viaggi di gruppo, vi forniamo l'accesso alle migliori offerte per il 2024 raccolte dai principali siti di viaggio. Che sia per partecipare a festival culturali o per esperienze immersive in natura, qui troverete l'avventura giapponese che fa per voi.</p>
+        <!-- More text -->
+      </div>
+    </div>
+  </section>
+</section>
+
+  
 </body>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="brand">
+        <h3>Viaggi di gruppo in Giappone </h3>
+        <p>la tua soluzione al viaggiare insieme</p>
+      </div>
+      <div class="footer-assistance">
+        <a href="#">FAQs</a>
+        <a href="#">Support team</a>
+        <a href="#">How-to tutorials</a>
+        <a href="#">Reach out to us</a>
+      </div>
+    </div>
+  </footer>
 </html>
