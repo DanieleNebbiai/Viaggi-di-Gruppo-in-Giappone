@@ -1,0 +1,648 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background-color: #ffffff; /* Set a light gray background or change as needed */
+}
+
+header {
+  box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 2;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This spreads the blog link and the title apart */
+  width: 100%;
+  height: 100px;
+  max-width: 1400px; /* Adjust as per your design needs */
+  margin: 0 auto;
+}
+
+.header-link {
+  font-size: 2em;
+  color: #333;
+  margin-left: auto;
+  width: 100px;
+  }
+
+.full-body {
+  width: 1440px;
+  margin: auto;
+}
+
+.full-body-blog {
+  width: 1060px;
+  margin: auto;
+}
+
+
+.brand-name h1 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 2em; /* Adjust size as needed */
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+}
+
+.hero {
+  position: relative; /* Ensures the pseudo-element positions relative to this container */
+  background-image: url('/ViaggiDiGruppoInGiappone/images/landscape2.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255); /* Changed text color to white for better contrast */
+  text-align: center;
+  padding: 100px;
+  height: 300px;
+  margin-top: 3em;
+  box-shadow: 0px 2px 10px rgba(3,3,3,0.1), 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.hero::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Black with 50% opacity */
+  z-index: 1; /* Ensures the overlay is behind the content */
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-box h4 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.feature-box p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.hero-content {
+  position: relative;
+  padding: 20px;
+  margin: 0 auto; /* Center the content */
+  z-index: 1; /* Ensures the overlay is behind the content */
+
+}
+
+.hero-content h1 {
+  font-weight: 600;
+  font-size: 3.5em;
+  margin-bottom: 0.25em;
+}
+
+.hero-content p {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+}
+
+.start-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.site-description {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.site-description h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.site-description p {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.search-container {
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 50px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-between; /* This will add space between the elements */
+  max-width: 800px; /* Match with .hero-content max-width */
+  margin: 1em auto 0; /* Center container */
+}
+
+.divider-vertical {
+  top: 368px;
+  left: 618px;
+  width: 1px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.information-section {
+  background-color: #ffffff; /* or any preferred background color */
+  color: #333;
+  padding: 2rem;
+  margin-top: 2em;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2em;
+}
+
+.info-block h3 {
+  color: #000; /* or any preferred color */
+  margin-bottom: 0.5rem;
+}
+
+.info-block p {
+  color: #666; /* or any preferred color */
+}
+
+.search-container input[type='text'],
+.search-container input[type='date'] {
+  border: 2px solid transparent; /* Hide border */
+  background-color: transparent; /* Match background */
+  border-radius: 30px; /* Rounded corners for inputs */
+  padding: 15px 20px; /* Padding inside inputs */
+  font-size: 1em; /* Font size for inputs */
+  color: #333; /* Font color */
+  margin: 0; /* Remove any margin */
+  flex: 1; /* Allow inputs to grow */
+}
+
+.search-container input[type='date'] {
+  max-width: 160px; /* Fixed width for date inputs */
+}
+
+.search-container button {
+  background-color: #ffd700; /* Color for the button */
+  border: none;
+  border-radius: 50%; /* Round shape */
+  padding: 0; /* Padding reset */
+  width: 60px; /* Fixed width and height for a perfect circle */
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Needed for absolute positioning of the icon */
+}
+
+.search-container button:focus {
+  outline: none;
+}
+
+.search-container button::after {
+  content: "➡"; /* Adds an arrow icon */
+  margin-left: 5px;
+  margin-right: 5px; /* Space between text and icon */
+  font-size: 38px;
+  color: white;
+}
+
+.search-container button i {
+  color: white; /* Icon color */
+  position: absolute; /* Absolute position */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Centering adjustment */
+  font-size: 1.5em; /* Icon size */
+}
+
+.top-picks {
+  text-align: center;
+  padding: 2em;
+  background-color: #ffffff; /* Adjust the background as needed */
+}
+
+.top-picks h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.highly-rated-accommodations {
+  margin-top: 5em;
+  background-color: #ffffff; /* Light background color */
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.accommodations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.accommodation-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 2px 10px rgba(3,3,3,0.1), 0px 8px 16px rgba(0,0,0,0.2); /* Added drop shadow */
+  position: relative;
+}
+.accommodation-logo {
+  max-height: 50px; /* Adjust the height as necessary */
+  width: auto; /* Maintain aspect ratio */
+}
+.title-logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accommodation-card:hover {
+  transform: translateY(-5px);
+}
+
+.accommodation-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: auto;
+  display: block;
+}
+
+.accommodation-info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.accommodation-name {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  white-space: nowrap; /* Prevents the text from wrapping onto multiple lines */
+  overflow: hidden; /* Hides any overflowed text that does not fit in the container */
+  text-overflow: ellipsis; /* Adds ellipsis to the end of the text that overflows */
+}
+
+
+.location {
+  font-size: 1rem;
+  color: #666;
+  margin-top: auto;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-top: auto;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: auto;
+}
+
+.rating {
+  background-color: #ffd700; /* Golden color for rating */
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.picks-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1em;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust based on your layout's max width */
+}
+
+.pick {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.pick.large {
+  grid-column: span 2; /* Makes this pick take up more space */
+}
+
+.pick img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.pick:hover img {
+  transform: scale(1.05); /* Slightly zoom the image on hover */
+}
+
+.destination-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(255,255,255,0.85);
+  border: none;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.destination-button:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+.site-footer {
+  background-color: #f0f0f0; /* Light background color for the footer */
+  color: #333; /* Dark color for text for better contrast */
+  padding: 2rem 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-content .brand h3 {
+  margin: 0;
+  font-size: 1.5rem; /* Large font size for brand name */
+}
+
+.footer-content .brand p {
+  margin: 0;
+  font-size: 1rem; /* Standard font size for slogan */
+}
+
+.footer-content .footer-nav,
+.footer-content .footer-assistance {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer a {
+  color: #333; /* Dark color for links for better contrast */
+  text-decoration: none;
+  margin-bottom: 0.5rem; /* Spacing between links */
+  font-size: 1rem;
+}
+
+.site-footer a:hover {
+  text-decoration: underline; /* Underline on hover for better user interaction */
+}
+.article-card {
+  display: flex;
+  align-items: flex-start;
+  border: 0 solid #ccc;
+  padding: 20px; 
+  margin-top: 20%;
+}
+
+.article-card-link {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits text color from parent elements */
+  display: block; /* Makes the link take the form of its contents */
+}
+
+.article-card:hover {
+  background-color: #f8f8f8; /* Optional: background color change on hover */
+  border-radius: 24px;
+}
+
+.title-author-info {
+  font-size: 1.5em;  
+}
+
+.article-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.article-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px; 
+  margin-top: 10%;
+}
+
+.author-info {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text-details p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.article-content p {
+  text-align: justify;
+  padding: 10px 0;
+}
+.article-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.article-intro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.article-tag, .article-recommend {
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.reading-time {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.author-image {
+  background-image: url(/ViaggiDiGruppoInGiappone/images/Daniele.jpeg);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.article-image {
+  width: 300px;            /* Fixed width for the container */
+  height: 200px;           /* Fixed height for the container */
+  display: flex;           /* Use Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  margin: auto;            /* Center the div itself if within another container */
+  overflow: hidden;        /* Hide anything outside this container */
+  position: relative;      /* Context for absolute positioning of the img */
+  border-radius: 5%;
+}
+
+.article-image img {
+  width: auto;             /* Auto width for maintaining aspect ratio */
+  height: 100%;            /* Stretch the height to fill the container */
+  min-width: 100%;         /* Ensure it covers the width */
+  position: absolute;      /* Absolute position */
+  top: 50%;                /* Align the top edge to the center of the container */
+  left: 50%;               /* Align the left edge to the center of the container */
+  transform: translate(-50%, -50%); /* Offset to center the image */
+}
+
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content .footer-nav,
+  .footer-content .footer-assistance {
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem; /* Spacing between links */
+  }
+  .picks-container {
+    grid-template-columns: 1fr;
+  }
+  .accommodations-container {
+    grid-template-columns: 1fr; /* Stack cards on smaller screens */
+  }
+  .pick.large {
+    grid-column: span 1; /* On mobile, each pick takes full width */
+  }
+
+  header {
+    padding: 5px; /* Reduce header padding */
+  }
+
+  .brand-name {
+    font-size: 1em; /* Reduce brand-name font size */
+    padding-left: 20px; /* Reduce space on the left */
+  }
+
+  .hero {
+    padding: 50px 20px; /* Smaller padding on mobile */
+    margin-left: 20px;
+    margin-right: 20px; /* Reduce margin for tighter screen fit */
+  }
+
+  .hero-content {
+    text-align: center; /* Center content for better visibility */
+  }
+
+  .search-container {
+    flex-direction: column; /* Stack the search elements vertically */
+    align-items: stretch; /* Stretch items to fit container width */
+  }
+
+  .search-container button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+  .search-container button::after {
+    content: "➡"; /* Adds an arrow icon */
+    margin-left: 5px;
+    margin-right: 5px; /* Space between text and icon */
+    font-size: 24px;
+    color: white;
+  }
+  .search-container input[type='text'],
+  .search-container input[type='date'] {
+      max-width: 100%; /* Make inputs use full width on mobile */
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px; /* Remove margin between inputs on smaller screens */
+  }
+}
+
