@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css -w",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "watch": "tailwindcss -i ./src/input.css -o ./output.css -w",
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css"
   },
   "author": "",
   "license": "ISC",
