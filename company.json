@@ -1,0 +1,129 @@
+[
+  {
+    "name": "WeRoad",
+    "url": "https://www.weroad.it/cerca/?giappone",
+    "image": "https://strapi-imaginary.weroad.it/resource/webp-cover/39896/Giappone12.webp",
+    "logo": "./images/weroadlogo.png",
+    "description": "Scopri il mondo viaggiando in piccoli gruppi",
+    "price": "1200",
+    "tag": "Avventura",
+    "rating": "4.5",
+    "totrating": "5"
+  },
+  {
+    "name": "Veratour",
+    "url": "https://www.veratour.it/destinazioni/thailandia-ed-estremo-oriente/giappone.cfm",
+    "image": "https://siviaggia.it/wp-content/uploads/sites/2/2015/05/fuji-t.jpg?w=738&strip=all",
+    "logo": "./images/Veratourlogo.png",
+    "description": "Vacanze all'insegna dello stile “Made in Italy",
+    "price": "1500",
+    "tag": "Relax"
+  },
+  {
+    "name": "Avventure nel mondo",
+    "url": "https://www.viaggiavventurenelmondo.it/viaggi/giappone",
+    "image": "https://www.viaggiavventurenelmondo.it/img/dpkxq33p8gqng.jpg",
+    "logo": "./images/avventurelogo.png",
+    "description": "Esplora l'autentico, vivi l'avventura!",
+    "price": "800",
+    "tag": "Avventura"
+  },
+  {
+    "name": "Blueberrytravel",
+    "url": "https://www.blueberrytravel.it/collezioni/giappotour/",
+    "image": "https://www.blueberrytravel.it/wp-content/uploads/2022/12/Blueberry-giappotour-kanazawa.jpeg",
+    "logo": "./images/blueberrylogo.png",
+    "description": "Esplorare il Giappone in piccoli gruppi, con accompagnatori esperti",
+    "price": "999",
+    "tag": "Esplorazione"
+  },
+  {
+    "name": "Grandi Viaggi",
+    "url": "https://www.igrandiviaggi.it/giappone.cfm",
+    "image": "https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/Viaggio-in-Giappone.jpg",
+    "logo": "./images/grandiviaggilogo.png",
+    "description": "Luoghi da fiaba, un tour indimenticabile in Giappone",
+    "price": "3299",
+    "tag": "Relax"
+  },
+  {
+    "name": "Turisanda",
+    "url": "https://www.turisanda.it/destinazioni/asia/giappone",
+    "image": "https://static.turisanda.it/dam/turisanda.it/destinazioni/asia/giappone/0-gallery/08_giappone_torii_miyajima_1900x720.jpg",
+    "logo": "./images/turisandalogo.png",
+    "description": "Là dove il giorno nasce e il futuro è già presente.",
+    "price": "4199",
+    "tag": "Elegante"
+  },
+  {
+    "name": "Viaggi Giovani",
+    "url": "https://www.viaggigiovani.it/tour-piccoli-gruppi/giappone-young",
+    "image": "https://www.viaggigiovani.it./images/tour_piccoli_gruppi/giappone_young/odaiba.jpg",
+    "logo": "./images/viaggigiovanilogo.png",
+    "description": "Tutto il meglio di un viaggio in Giappone a misura di giovani Nomadi Moderni.",
+    "price": "2.690",
+    "tags": ["Esperienza", "Fisico"]
+  },
+  {
+    "name": "Evaneos",
+    "url": "https://www.evaneos.it/giappone/tour-due-settimane/",
+    "image": "https://i.ibb.co/ZYs1jtm/download.jpg",
+    "logo": "./images/evaneoslogo.jpg",
+    "description": "Tour di 15 giorni in Giappone organizzati da un'agenzia locale",
+    "price": "3.500",
+    "tag": "Esplorazione"
+  },
+  {
+    "name": "Japan Experience",
+    "url": "https://www.japan-experience.com/it",
+    "image": "https://www.japan-experience.com/sites/default/files/styles/scale_crop_1180x450/public/images/2021-04/Tours.jpg.webp?itok=ExnpJrna",
+    "logo": "./images/japanexperiencelogo.png",
+    "description": "Viaggi organizzat dalla A alla Z",
+    "price": "2.050",
+    "tag": "Relax"
+  },
+  {
+    "name": "Airmar",
+    "url": "https://www.airmar.it/giappone/giappone-viaggi-di-gruppo-e-tour-organizzati.htm",
+    "image": "https://www.airmar.it/images/giappone-viaggi-organizzati-e-tour-di-gruppo-con-guida.jpg",
+    "logo": "./images/airmarlogo.png",
+    "description": "In ogni città gli alberghi con il miglior rapporto Q/P",
+    "price": "2.099",
+    "tag": "Family"
+  },
+  {
+    "name": "Boscolo",
+    "url": "https://www.boscolo.com/it/viaggi/giappone",
+    "image": "https://boscolo-viaggi-res.cloudinary.com/image/upload/f_auto/t_PD-HeroBanner-High-XXL/v1678355406/Destinazioni/Giappone/head-SS_Kyoto-Fushimi-Inari-Shrine_700132867_qd8x5g.jpg",
+    "logo": "./images/boscolologo.png",
+    "description": "Emozioni e viaggi che valgono davvero",
+    "price": "4.590",
+    "tag": "Esplorazione"
+  },
+  {
+    "name": "Dondake",
+    "url": "https://www.dondake.it/viaggi-in-giappone",
+    "image": "https://www.dondake.it/wp-content/uploads/2021/04/pubblicita-giappotour-NEWx.jpg",
+    "logo": "./images/tommasoingiapponelogo.png",
+    "description": "Un viaggio incredibile, il migliore della tua vita",
+    "price": "2.790",
+    "tag": "Avventura"
+  },
+  {
+    "name": "Tramundi",
+    "url": "https://www.tramundi.it/asia/giappone",
+    "image": "https://i.ibb.co/QK62trK/5dd2351adab76fdf7f8509562986facba22aff60-4975x3317.webp",
+    "logo": "./images/tramundilogo.png",
+    "description": "Semplificare il mercato dei viaggi di gruppo organizzati permettendo a tutti i viaggiatori e viaggiatrici del mondo di trovare il viaggio che più fa per loro.",
+    "price": "1.719",
+    "tag": "Avventura"
+  },
+  {
+    "name": "In arrivo",
+    "url": "#",
+    "image": "./images/inarrivo.png",
+    "description": "Altri operatori verranno aggiunti a breve!",
+    "price": "TBA",
+    "tag": "Coming Soon"
+  }
+]
