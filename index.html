@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="output.css" />
     <title>Viaggi organizzati Giappone</title>
   </head>
+
   <body class="bg-gray-100">
     <header class="w-full z-20 top-0 start-0 border-b fixed left-0 bg-gray-50">
       <div
@@ -58,13 +59,13 @@
     </div>
 
     <div class="max-w-6xl px-6 py-10 mx-auto">
-      <div class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
+      <div class="relative w-full mt-8 md:flex md:items-center xl:mt-12">
         <div
           class="absolute w-full bg-pink-100 -z-10 md:h-72 rounded-2xl"
         ></div>
 
         <div
-          class="w-full p-6 bg-pink-400 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly"
+          class="w-full p-6 bg-pink-100 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly"
         >
           <img
             class="w-full md:mx-6 rounded-2xl object-cover shadow-md md:h-[24rem] md:w-80 lg:h-[24rem]"
@@ -87,24 +88,80 @@
       </div>
     </div>
 
-    <div class="m-auto max-w-screen-xl w-5/6 px-4 py-8 lg:text-xl">
-      <div class="m-auto max-w-screen-xl text-center lg:text-left">
-        <h2
-          class="mb-4 text-xl font-extrabold leading-none tracking-tight text-slate-700 md:text-2xl lg:text-3xl"
-        >
-          Il tuo viaggio per il Giappone
-        </h2>
-        <p class="mb-8 text-lg font-normal text-slate-700">
-          Sei indeciso su quale viaggio per Giappone scegliere? Confronta tutte
-          le offerte di viaggi organizzati e scegli quello più in linea con
-          l'esperienza che cerchi
-        </p>
-      </div>
-
+    <div
+      class="relative m-auto w-full py-8 text-center lg:text-left lg:text-xl"
+    >
       <div
-        class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5"
-        id="cards-container"
+        class="relative m-auto max-w-screen-xl bg-cover bg-center px-4 py-8 text-center lg:text-left lg:text-xl"
+      >
+        <div class="m-auto max-w-screen-xl text-center lg:text-left">
+          <h2
+            class="mb-4 py-8 text-xl font-extrabold leading-none tracking-tight text-slate-700 md:text-2xl lg:text-3xl"
+          >
+            I viaggi piu richiesti per il Giappone
+          </h2>
+          <!-- <p class="mb-8 text-lg font-normal text-slate-700">
+              I siti con le efforte piu richieste.
+            </p> -->
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-6 pt-4 sm:grid-cols-2 md:pt-8 lg:grid-cols-3 lg:pt-8 xl:grid-cols-5"
+          id="cards-container-mostwanted"
+        ></div>
+      </div>
+    </div>
+
+    <div
+      class="relative m-auto w-full bg-cover bg-center py-8 text-center lg:text-left lg:text-xl"
+      style="background-image: url('./images/landscapeoriginal.jpg')"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-black to-white/20 opacity-75"
       ></div>
+      <div
+        class="relative m-auto max-w-screen-xl px-4 py-8 text-center lg:text-left lg:text-xl"
+      >
+        <div class="m-auto max-w-screen-xl text-center lg:text-left">
+          <h2
+            class="mb-4 py-8 text-xl font-extrabold leading-none tracking-tight text-white md:text-2xl lg:text-3xl"
+          >
+            Le migliori esperienze lowcost
+          </h2>
+          <!-- <p class="mb-8 text-lg font-normal text-white">
+            I siti con le efforte piu richieste.
+          </p> -->
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-6 pt-4 sm:grid-cols-2 md:pt-8 lg:grid-cols-3 lg:pt-8 xl:grid-cols-5"
+          id="cards-container-lowestprice"
+        ></div>
+      </div>
+    </div>
+
+    <div
+      class="relative m-auto w-full py-8 text-center lg:text-left lg:text-xl"
+    >
+      <div
+        class="relative m-auto max-w-screen-xl bg-cover bg-center px-4 py-8 text-center lg:text-left lg:text-xl"
+      >
+        <div class="m-auto max-w-screen-xl text-center lg:text-left">
+          <h2
+            class="mb-4 py-8 text-xl font-extrabold leading-none tracking-tight text-slate-700 md:text-2xl lg:text-3xl"
+          >
+            Viaggi organizzati per under 30
+          </h2>
+          <!-- <p class="mb-8 text-lg font-normal text-slate-700">
+              I siti con le efforte piu richieste.
+            </p> -->
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-6 pt-4 sm:grid-cols-2 md:pt-8 lg:grid-cols-3 lg:pt-8 xl:grid-cols-5"
+          id="cards-container-adventure"
+        ></div>
+      </div>
     </div>
 
     <script src="script.js"></script>

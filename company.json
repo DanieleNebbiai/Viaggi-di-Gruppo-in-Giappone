@@ -6,9 +6,9 @@
     "logo": "./images/weroadlogo.png",
     "description": "Scopri il mondo viaggiando in piccoli gruppi",
     "price": "1200",
-    "tag": "Avventura",
+    "tag": "avventura",
     "rating": "4.7",
-    "totrating": "5.092"
+    "totrating": "5092"
   },
   {
     "name": "Veratour",
@@ -28,7 +28,7 @@
     "logo": "./images/avventurelogo.png",
     "description": "Esplora l'autentico, vivi l'avventura!",
     "price": "800",
-    "tag": "Avventura",
+    "tag": "avventura",
     "rating": "3.9",
     "totrating": "99"
   },
@@ -72,7 +72,7 @@
     "logo": "./images/viaggigiovanilogo.png",
     "description": "Tutto il meglio di un viaggio in Giappone a misura di giovani Nomadi Moderni.",
     "price": "2.690",
-    "tags": "Esperienza",
+    "tags": "avventura",
     "rating": "4.8",
     "totrating": "643"
   },
@@ -85,7 +85,7 @@
     "price": "3.500",
     "tag": "Esplorazione",
     "rating": "4.8",
-    "totrating": "1.757"
+    "totrating": "1757"
   },
   {
     "name": "Japan Experience",
@@ -96,7 +96,7 @@
     "price": "2.050",
     "tag": "Relax",
     "rating": "4.5",
-    "totrating": "4.033"
+    "totrating": "4033"
   },
   {
     "name": "Airmar",
@@ -118,7 +118,7 @@
     "price": "4.590",
     "tag": "Esplorazione",
     "rating": "4.6",
-    "totrating": "1.281"
+    "totrating": "1281"
   },
   {
     "name": "Dondake",
@@ -127,7 +127,7 @@
     "logo": "./images/tommasoingiapponelogo.png",
     "description": "Un viaggio incredibile, il migliore della tua vita",
     "price": "2.790",
-    "tag": "Avventura",
+    "tag": "avventura",
     "rating": "-",
     "totrating": "-"
   },
@@ -138,7 +138,7 @@
     "logo": "./images/tramundilogo.png",
     "description": "Semplificare il mercato dei viaggi di gruppo organizzati permettendo a tutti i viaggiatori e viaggiatrici del mondo di trovare il viaggio che più fa per loro.",
     "price": "1.719",
-    "tag": "Avventura",
+    "tag": "avventura",
     "rating": "4.5",
     "totrating": "284"
   },
