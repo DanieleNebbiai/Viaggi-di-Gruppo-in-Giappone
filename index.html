@@ -16,9 +16,7 @@
     <title>Viaggi organizzati Giappone</title>
   </head>
   <body class="bg-gray-100">
-    <header
-      class="w-full z-20 top-0 start-0 border-b fixed left-0 bg-gray-50 text-slate-800"
-    >
+    <header class="w-full z-20 top-0 start-0 border-b fixed left-0 bg-gray-50">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -40,52 +38,83 @@
       </div>
     </header>
 
-    <section
-      class="mt-20 bg-scre bg-cover bg-center bg-no-repeat bg-[url('./images/landscape.jpeg')] bg-gray-500 bg-blend-multiply"
+    <div
+      class="py-14 px-4 mx-auto max-w-screen text-center sm:py-28 lg:py-32 xl:py-36 mt-20 bg-scre bg-cover bg-center bg-no-repeat bg-[url('./images/landscape.jpeg')] bg-gray-500 bg-blend-multiply"
     >
-      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-48">
-        <h1
-          class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl"
-        >
-          Viaggi organizzati in Giappone 🌸
-        </h1>
-        <p
-          class="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48"
-        >
-          Benvenuti su
-          <span class="text-pink-400 font-bold"
-            >Viaggi organizzati in Giappone</span
-          >, il portale per scoprire e prenotare i migliori viaggi organizzati
-          verso il Giappone.
-        </p>
-        <div
-          class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0"
-        ></div>
-      </div>
-    </section>
+      <h1
+        class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl"
+      >
+        Viaggi organizzati in Giappone 🌸
+      </h1>
+      <p
+        class="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48"
+      >
+        Benvenuti su
+        <span class="text-pink-400 font-bold"
+          >Viaggi organizzati in Giappone</span
+        >, il portale per scoprire e prenotare i migliori viaggi organizzati
+        verso il Giappone.
+      </p>
+    </div>
 
-    <section
-      class="w-4/5 py-8 px-4 mx-auto max-w-max lg:py-16 sm:px-16 lg:px-48 lg:text-xl"
-    >
-      <div class="lg:text-left mx-auto sm-6">
+    <div class="max-w-6xl px-6 py-10 mx-auto">
+      <div class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
+        <div
+          class="absolute w-full bg-pink-100 -z-10 md:h-72 rounded-2xl"
+        ></div>
+
+        <div
+          class="w-full p-6 bg-pink-400 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly"
+        >
+          <img
+            class="w-full md:mx-6 rounded-2xl object-cover shadow-md md:h-[24rem] md:w-80 lg:h-[24rem]"
+            src="./images/landscape.jpeg"
+            alt="client photo"
+          />
+
+          <div class="mt-2 md:mx-6">
+            <h2 class="mt-2 text-2xl font-bold text-slate-700 lg:text-3xl">
+              Tutte le offerte per il giappone in un unico posto!
+            </h2>
+            <p class="mt-4 text-lg leading-relaxed text-slate-700 md:text-xl">
+              Nel 2023, è nato questo sito, che oggi rappresenta un punto di
+              riferimento per chi desidera confrontare offerte di viaggi
+              organizzati per il Giappone. <br /><br />
+              Grazie per essere qui e buon viaggio in Giappone 🌸
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-auto max-w-screen-xl w-5/6 px-4 py-8 lg:text-xl">
+      <div class="m-auto max-w-screen-xl text-center lg:text-left">
         <h2
-          class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl"
+          class="mb-4 text-xl font-extrabold leading-none tracking-tight text-slate-700 md:text-2xl lg:text-3xl"
         >
           Il tuo viaggio per il Giappone
         </h2>
-        <p class="mb-8 text-lg font-normal text-gray-800">
+        <p class="mb-8 text-lg font-normal text-slate-700">
           Sei indeciso su quale viaggio per Giappone scegliere? Confronta tutte
-          le efforte di viaggi organizzati e scegli quello piu in linea con
+          le offerte di viaggi organizzati e scegli quello più in linea con
           l'esperienza che cerchi
         </p>
       </div>
 
       <div
-        class="grid fade grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
+        class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5"
         id="cards-container"
       ></div>
-    </section>
+    </div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- 
+  git status
+  git add -all /.
+  git commit -m "comment"
+  git log
+  git push -u origin main
+-->

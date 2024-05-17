@@ -7,8 +7,8 @@
     "description": "Scopri il mondo viaggiando in piccoli gruppi",
     "price": "1200",
     "tag": "Avventura",
-    "rating": "4.5",
-    "totrating": "5"
+    "rating": "4.7",
+    "totrating": "5.092"
   },
   {
     "name": "Veratour",
@@ -17,7 +17,9 @@
     "logo": "./images/Veratourlogo.png",
     "description": "Vacanze all'insegna dello stile “Made in Italy",
     "price": "1500",
-    "tag": "Relax"
+    "tag": "Relax",
+    "rating": "2.8",
+    "totrating": "145"
   },
   {
     "name": "Avventure nel mondo",
@@ -26,7 +28,9 @@
     "logo": "./images/avventurelogo.png",
     "description": "Esplora l'autentico, vivi l'avventura!",
     "price": "800",
-    "tag": "Avventura"
+    "tag": "Avventura",
+    "rating": "3.9",
+    "totrating": "99"
   },
   {
     "name": "Blueberrytravel",
@@ -35,7 +39,9 @@
     "logo": "./images/blueberrylogo.png",
     "description": "Esplorare il Giappone in piccoli gruppi, con accompagnatori esperti",
     "price": "999",
-    "tag": "Esplorazione"
+    "tag": "Esplorazione",
+    "rating": "4.8",
+    "totrating": "416"
   },
   {
     "name": "Grandi Viaggi",
@@ -44,7 +50,9 @@
     "logo": "./images/grandiviaggilogo.png",
     "description": "Luoghi da fiaba, un tour indimenticabile in Giappone",
     "price": "3299",
-    "tag": "Relax"
+    "tag": "Relax",
+    "rating": "2.9",
+    "totrating": "6"
   },
   {
     "name": "Turisanda",
@@ -53,7 +61,9 @@
     "logo": "./images/turisandalogo.png",
     "description": "Là dove il giorno nasce e il futuro è già presente.",
     "price": "4199",
-    "tag": "Elegante"
+    "tag": "Elegante",
+    "rating": "4.6",
+    "totrating": "265"
   },
   {
     "name": "Viaggi Giovani",
@@ -62,7 +72,9 @@
     "logo": "./images/viaggigiovanilogo.png",
     "description": "Tutto il meglio di un viaggio in Giappone a misura di giovani Nomadi Moderni.",
     "price": "2.690",
-    "tags": ["Esperienza", "Fisico"]
+    "tags": "Esperienza",
+    "rating": "4.8",
+    "totrating": "643"
   },
   {
     "name": "Evaneos",
@@ -71,7 +83,9 @@
     "logo": "./images/evaneoslogo.jpg",
     "description": "Tour di 15 giorni in Giappone organizzati da un'agenzia locale",
     "price": "3.500",
-    "tag": "Esplorazione"
+    "tag": "Esplorazione",
+    "rating": "4.8",
+    "totrating": "1.757"
   },
   {
     "name": "Japan Experience",
@@ -80,7 +94,9 @@
     "logo": "./images/japanexperiencelogo.png",
     "description": "Viaggi organizzat dalla A alla Z",
     "price": "2.050",
-    "tag": "Relax"
+    "tag": "Relax",
+    "rating": "4.5",
+    "totrating": "4.033"
   },
   {
     "name": "Airmar",
@@ -89,7 +105,9 @@
     "logo": "./images/airmarlogo.png",
     "description": "In ogni città gli alberghi con il miglior rapporto Q/P",
     "price": "2.099",
-    "tag": "Family"
+    "tag": "Family",
+    "rating": "4.8",
+    "totrating": "70"
   },
   {
     "name": "Boscolo",
@@ -98,7 +116,9 @@
     "logo": "./images/boscolologo.png",
     "description": "Emozioni e viaggi che valgono davvero",
     "price": "4.590",
-    "tag": "Esplorazione"
+    "tag": "Esplorazione",
+    "rating": "4.6",
+    "totrating": "1.281"
   },
   {
     "name": "Dondake",
@@ -107,7 +127,9 @@
     "logo": "./images/tommasoingiapponelogo.png",
     "description": "Un viaggio incredibile, il migliore della tua vita",
     "price": "2.790",
-    "tag": "Avventura"
+    "tag": "Avventura",
+    "rating": "-",
+    "totrating": "-"
   },
   {
     "name": "Tramundi",
@@ -116,14 +138,18 @@
     "logo": "./images/tramundilogo.png",
     "description": "Semplificare il mercato dei viaggi di gruppo organizzati permettendo a tutti i viaggiatori e viaggiatrici del mondo di trovare il viaggio che più fa per loro.",
     "price": "1.719",
-    "tag": "Avventura"
+    "tag": "Avventura",
+    "rating": "4.5",
+    "totrating": "284"
   },
   {
     "name": "In arrivo",
     "url": "#",
     "image": "./images/inarrivo.png",
     "description": "Altri operatori verranno aggiunti a breve!",
-    "price": "TBA",
-    "tag": "Coming Soon"
+    "price": "-",
+    "tag": "Coming Soon",
+    "rating": "-",
+    "totrating": "-"
   }
 ]
